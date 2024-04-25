@@ -8,6 +8,8 @@ ggplot(gymnastics, aes(x = height, y = weight, colour = sex)) +
     y = "weights of gymnasts", 
     title = " height and weight datas of gymnasts") 
 
+library(tidyverse)
+ggplot(gymnastics)
 
 
 
